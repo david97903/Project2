@@ -1,0 +1,24 @@
+<!doctype html>
+<script src="code/game.js"></script>
+<script src="code/game_levels.js"></script>
+
+<link rel="stylesheet" href="css/game.css">
+
+<style>
+ body {
+   background-color: #0000A0;
+ }
+</style>
+
+<body>
+
+  <p> <center> <h1> 2D Adventure? </h1> </center> </p>
+
+  <audio autoplay="autoplay" controls="controls" loop = "true" hidden = "true">
+    <source src="TheMusic.mp3" />
+ </audio>
+
+  <script>
+    runGame(GAME_LEVELS, DOMDisplay);
+  </script>
+</body>
